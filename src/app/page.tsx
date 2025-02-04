@@ -12,19 +12,19 @@ import MainpageChefs from "./components/mainpageChef";
 
 export default function Home() {
   return (
-    <div className=" bg-black w-[1920px]">
+    <div className=" bg-black w-[1920px] h-auto">
       <Layout isHomePage={true}></Layout>
 
       <Restaurant />
       <Mainpageabout />
       <Food_Category />
       <Chooseyou />
-      {/* <Clients1 /> */}
-      {/* <MainpageMenu /> */}
-      {/* <MainpageChefs /> */}
-      {/* <Testimonials color="text-white" /> */}
-      {/* <Active /> */}
-      {/* <BlogPost /> */}
+      <Clients1 />
+      <MainpageMenu />
+      <MainpageChefs />
+      <Testimonials color="text-white" />
+      <Active />
+      <BlogPost />
     </div>
   );
 }

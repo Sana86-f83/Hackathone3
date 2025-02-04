@@ -25,7 +25,7 @@ const products = [
 
 const ShopList = () => {
   return (
-    <div className="w-[1920px] h-[1800px] ">
+    <div className="w-[1920px] h-[1800px] bg-white">
       <Heading Heading="Our Shop" home="Home" pagename="shop" />
       <div className="w-[1320px] m-auto mt-[120px]">
         <div className="w-[1320px] h-[2100px] m-auto">
